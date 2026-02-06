@@ -1,0 +1,11 @@
+Source,Target,Weight
+cultura,literatura,35
+cultura,historia,27
+historia,literatura,27
+arte,literatura,26
+arte,vida,16
+cultura,texto,16
+cultura,sociedad,15
+crítica,literatura,15
+literatura,vida,14
+literatura,texto,14

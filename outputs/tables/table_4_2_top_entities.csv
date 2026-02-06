@@ -1,0 +1,21 @@
+Rank,Entity,Degree,Type
+1,literatura,669,Concept: Literary
+2,Universidad Nacional de La Plata,542,Org: Institution
+3,cultura,509,Concept: Cultural
+4,Argentina,429,Place: Country
+5,Facultad de Humanidades y Ciencias de la Educación,422,Org: Institution
+6,historia,405,Concept: Cultural
+7,Buenos Aires,404,Place: City
+8,Jorge Luis Borges,369,Person: Author (literary)
+9,Orbis Tertius,363,Org: Journal
+10,Centro de Estudios de Teoría y Crítica Literaria,321,Org: Institution
+11,arte,285,Concept: Cultural
+12,América,276,Place: Region
+13,vida,245,Concept: Cultural
+14,Julio Cortázar,236,Person: Author (literary)
+15,Rubén Darío,233,Person: Author (literary)
+16,libro,228,Thing: Literary object
+17,poesía,212,Concept: Genre
+18,texto,205,Concept: Literary
+19,obra,191,Concept: Literary
+20,Ricardo Piglia,189,Person: Author (literary)

@@ -1,0 +1,17 @@
+Frame,Connection,Weight
+,,
+CULTURAL FRAME,,
+,literatura-cultura,35
+,literatura-historia,29
+,literatura-arte,27
+,literatura-sociedad,10
+,SUBTOTAL,101
+,,
+TEXTUAL FRAME,,
+,literatura-texto,14
+,literatura-escritura,12
+,literatura-lectura,9
+,literatura-lenguaje,5
+,SUBTOTAL,40
+,,
+RATIO (Cultural/Textual),,2.52x

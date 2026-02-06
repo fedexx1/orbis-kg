@@ -1,0 +1,790 @@
+{
+  "total_entities": 104,
+  "total_edges": 2412,
+  "top_entities": [
+    {
+      "entity": "orbis tertius",
+      "degree": 887,
+      "type": "Other"
+    },
+    {
+      "entity": "literatura",
+      "degree": 657,
+      "type": "Concept: Literature"
+    },
+    {
+      "entity": "cultura",
+      "degree": 642,
+      "type": "Concept: Cultural"
+    },
+    {
+      "entity": "texto",
+      "degree": 528,
+      "type": "Concept: Literary/Textual"
+    },
+    {
+      "entity": "historia",
+      "degree": 477,
+      "type": "Concept: Cultural"
+    },
+    {
+      "entity": "universidad nacional de la plata",
+      "degree": 470,
+      "type": "Other"
+    },
+    {
+      "entity": "jorge luis borges",
+      "degree": 458,
+      "type": "Author (literary)"
+    },
+    {
+      "entity": "poesía",
+      "degree": 456,
+      "type": "Other"
+    },
+    {
+      "entity": "facultad de humanidades y ciencias de la educación",
+      "degree": 423,
+      "type": "Other"
+    },
+    {
+      "entity": "obra",
+      "degree": 422,
+      "type": "Other"
+    },
+    {
+      "entity": "lectura",
+      "degree": 421,
+      "type": "Concept: Literary/Textual"
+    },
+    {
+      "entity": "novela",
+      "degree": 385,
+      "type": "Other"
+    },
+    {
+      "entity": "centro de estudios de teoría y crítica literaria",
+      "degree": 360,
+      "type": "Other"
+    },
+    {
+      "entity": "escritura",
+      "degree": 352,
+      "type": "Concept: Literary/Textual"
+    },
+    {
+      "entity": "libro",
+      "degree": 351,
+      "type": "Other"
+    },
+    {
+      "entity": "autor",
+      "degree": 347,
+      "type": "Other"
+    },
+    {
+      "entity": "crítica",
+      "degree": 325,
+      "type": "Other"
+    },
+    {
+      "entity": "buenos aires",
+      "degree": 323,
+      "type": "Place"
+    },
+    {
+      "entity": "vida",
+      "degree": 302,
+      "type": "Other"
+    },
+    {
+      "entity": "lector",
+      "degree": 300,
+      "type": "Other"
+    }
+  ],
+  "cultural_hypothesis": {
+    "cultural_weight": 126,
+    "textual_weight": 58,
+    "ratio": 2.1724137931034484,
+    "cultural_connections": [
+      [
+        "literatura",
+        "cultura",
+        32
+      ],
+      [
+        "literatura",
+        "historia",
+        20
+      ],
+      [
+        "cultura",
+        "literatura",
+        12
+      ],
+      [
+        "literatura",
+        "arte",
+        10
+      ],
+      [
+        "arte",
+        "literatura",
+        8
+      ],
+      [
+        "historia",
+        "literatura",
+        8
+      ],
+      [
+        "centro de estudios de teoría y crítica literaria",
+        "cultura",
+        6
+      ],
+      [
+        "literatura argentina",
+        "cultura",
+        5
+      ],
+      [
+        "literatura",
+        "sociedad",
+        5
+      ],
+      [
+        "literatura",
+        "memoria",
+        4
+      ]
+    ],
+    "textual_connections": [
+      [
+        "texto",
+        "literatura",
+        12
+      ],
+      [
+        "literatura",
+        "texto",
+        7
+      ],
+      [
+        "literatura",
+        "lenguaje",
+        6
+      ],
+      [
+        "literatura",
+        "lectura",
+        6
+      ],
+      [
+        "literatura",
+        "escritura",
+        5
+      ],
+      [
+        "escritura",
+        "literatura",
+        4
+      ],
+      [
+        "lectura",
+        "literatura",
+        4
+      ],
+      [
+        "escritura",
+        "literatura argentina",
+        3
+      ],
+      [
+        "texto",
+        "centro de estudios de teoría y crítica literaria",
+        2
+      ],
+      [
+        "centro de estudios de teoría y crítica literaria",
+        "texto",
+        2
+      ]
+    ]
+  },
+  "temporal_evolution": {
+    "1996-1999": {
+      "cultural": 116,
+      "textual": 49,
+      "ratio": 2.36734693877551
+    },
+    "2000-2009": {
+      "cultural": 115,
+      "textual": 51,
+      "ratio": 2.2549019607843137
+    },
+    "2010-2019": {
+      "cultural": 103,
+      "textual": 48,
+      "ratio": 2.1458333333333335
+    },
+    "2020-2024": {
+      "cultural": 67,
+      "textual": 13,
+      "ratio": 5.153846153846154
+    }
+  },
+  "author_network": [
+    {
+      "source": "rubén darío",
+      "target": "paul groussac",
+      "weight": 8,
+      "predicates": [
+        "dedicó",
+        "respondió",
+        "aprendió a escribir"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "victoria ocampo",
+      "target": "jorge luis borges",
+      "weight": 7,
+      "predicates": [
+        "tiene figuras masculinas tutelares",
+        "tiene alianzas estéticas",
+        "tiene alianzas de clase social"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "leopoldo lugones",
+      "weight": 6,
+      "predicates": [
+        "critica",
+        "es deudor de",
+        "influyó en"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "paul groussac",
+      "weight": 6,
+      "predicates": [
+        "describe",
+        "encontró precursor en",
+        "parodió"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "ricardo piglia",
+      "target": "roberto arlt",
+      "weight": 5,
+      "predicates": [
+        "es admirador de",
+        "escribió",
+        "escribe"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "roberto arlt",
+      "target": "leopoldo lugones",
+      "weight": 5,
+      "predicates": [
+        "responde",
+        "criticó",
+        "parodió"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "victoria ocampo",
+      "target": "silvina ocampo",
+      "weight": 5,
+      "predicates": [
+        "analizó",
+        "mostró recelo",
+        "registró hallazgos"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "leopoldo lugones",
+      "target": "rubén darío",
+      "weight": 5,
+      "predicates": [
+        "imitó estilo de",
+        "tuvo influencia de",
+        "frequentó a"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "ricardo piglia",
+      "target": "jorge luis borges",
+      "weight": 4,
+      "predicates": [
+        "es admirador de",
+        "leyó",
+        "tenía razón sobre"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "silvina ocampo",
+      "target": "victoria ocampo",
+      "weight": 4,
+      "predicates": [
+        "abandonó proyecto",
+        "eran distintos",
+        "eran distintos en tono"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "césar aira",
+      "target": "ricardo piglia",
+      "weight": 4,
+      "predicates": [
+        "se distanció de",
+        "ataca",
+        "criticó"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "macedonio fernández",
+      "target": "jorge luis borges",
+      "weight": 4,
+      "predicates": [
+        "escribe carta a",
+        "compartir intuición",
+        "coincide con"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "manuel puig",
+      "target": "jorge luis borges",
+      "weight": 3,
+      "predicates": [
+        "lucha contra",
+        "dedica líneas a",
+        "escribe sobre"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "roland barthes",
+      "target": "roland barthes",
+      "weight": 3,
+      "predicates": [
+        "escribió"
+      ],
+      "source_type": "Author (theory)",
+      "target_type": "Author (theory)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "silvina ocampo",
+      "weight": 3,
+      "predicates": [
+        "influye en",
+        "dedicó",
+        "incluyó"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jacques lacan",
+      "target": "sigmund freud",
+      "weight": 3,
+      "predicates": [
+        "lee",
+        "retoma",
+        "reinterpreta"
+      ],
+      "source_type": "Author (theory)",
+      "target_type": "Author (theory)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "victoria ocampo",
+      "weight": 3,
+      "predicates": [
+        "legitima",
+        "antologiza",
+        "comparte preocupación con"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "josefina ludmer",
+      "target": "césar aira",
+      "weight": 3,
+      "predicates": [
+        "reconoció",
+        "le dio",
+        "analizó"
+      ],
+      "source_type": "Author (critic)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "paul groussac",
+      "target": "rubén darío",
+      "weight": 3,
+      "predicates": [
+        "recibe",
+        "criticó",
+        "reprocha"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "rubén darío",
+      "target": "leopoldo lugones",
+      "weight": 3,
+      "predicates": [
+        "escribe",
+        "escribió artículo sobre",
+        "habla de"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "martínez estrada",
+      "target": "victoria ocampo",
+      "weight": 3,
+      "predicates": [
+        "tiene vínculo con",
+        "escribe cartas a",
+        "construye"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "julio cortázar",
+      "weight": 3,
+      "predicates": [
+        "influyó en",
+        "ejerció influencia en",
+        "tuvo influencia en"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "juan josé saer",
+      "target": "jorge luis borges",
+      "weight": 2,
+      "predicates": [
+        "tomó distancia de",
+        "prefiere"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "rubén darío",
+      "weight": 2,
+      "predicates": [
+        "critica",
+        "influyó en"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jorge luis borges",
+      "target": "josé hernández",
+      "weight": 2,
+      "predicates": [
+        "menciona",
+        "toma referencias de"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "beatriz sarlo",
+      "target": "jorge luis borges",
+      "weight": 2,
+      "predicates": [
+        "escribió",
+        "citó"
+      ],
+      "source_type": "Author (critic)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "jacques derrida",
+      "target": "friedrich nietzsche",
+      "weight": 2,
+      "predicates": [
+        "leyó",
+        "cita"
+      ],
+      "source_type": "Author (theory)",
+      "target_type": "Author (theory)"
+    },
+    {
+      "source": "silvina ocampo",
+      "target": "jorge luis borges",
+      "weight": 2,
+      "predicates": [
+        "siguió el modelo de",
+        "se independizó de"
+      ],
+      "source_type": "Author (literary)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "beatriz sarlo",
+      "target": "roberto arlt",
+      "weight": 2,
+      "predicates": [
+        "analizó"
+      ],
+      "source_type": "Author (critic)",
+      "target_type": "Author (literary)"
+    },
+    {
+      "source": "anagrama",
+      "target": "césar aira",
+      "weight": 2,
+      "predicates": [
+        "incorpora a",
+        "incluye"
+      ],
+      "source_type": "Author (critic)",
+      "target_type": "Author (literary)"
+    }
+  ],
+  "concept_network": [
+    {
+      "source": "cultura",
+      "target": "cultura",
+      "weight": 40,
+      "predicates": [
+        "busca",
+        "evidencia",
+        "se manifiesta como"
+      ]
+    },
+    {
+      "source": "lectura",
+      "target": "lectura",
+      "weight": 39,
+      "predicates": [
+        "se publicó en",
+        "es anterior a",
+        "discuten"
+      ]
+    },
+    {
+      "source": "literatura",
+      "target": "literatura",
+      "weight": 34,
+      "predicates": [
+        "viene de",
+        "llamada",
+        "publicado en"
+      ]
+    },
+    {
+      "source": "literatura",
+      "target": "cultura",
+      "weight": 32,
+      "predicates": [
+        "es palanca",
+        "se separó de",
+        "es"
+      ]
+    },
+    {
+      "source": "historia",
+      "target": "historia",
+      "weight": 30,
+      "predicates": [
+        "incluye",
+        "es",
+        "aceptan"
+      ]
+    },
+    {
+      "source": "texto",
+      "target": "texto",
+      "weight": 27,
+      "predicates": [
+        "es",
+        "consiste en",
+        "propone"
+      ]
+    },
+    {
+      "source": "literatura",
+      "target": "historia",
+      "weight": 20,
+      "predicates": [
+        "se enfrenta a",
+        "tiene",
+        "se vincula a"
+      ]
+    },
+    {
+      "source": "lectura",
+      "target": "historia",
+      "weight": 18,
+      "predicates": [
+        "son anteriores a",
+        "tiene historia",
+        "depende de"
+      ]
+    },
+    {
+      "source": "memoria",
+      "target": "memoria",
+      "weight": 17,
+      "predicates": [
+        "es",
+        "incluye concepciones",
+        "conduce a"
+      ]
+    },
+    {
+      "source": "escritura",
+      "target": "escritura",
+      "weight": 15,
+      "predicates": [
+        "conceptualizan",
+        "está obligado a",
+        "unen"
+      ]
+    },
+    {
+      "source": "lectura",
+      "target": "texto",
+      "weight": 13,
+      "predicates": [
+        "se basa en",
+        "fue de",
+        "se dirime en"
+      ]
+    },
+    {
+      "source": "texto",
+      "target": "cultura",
+      "weight": 13,
+      "predicates": [
+        "incorpora",
+        "dibuja",
+        "muestra"
+      ]
+    },
+    {
+      "source": "escritura",
+      "target": "texto",
+      "weight": 13,
+      "predicates": [
+        "es",
+        "describe",
+        "se diseña como"
+      ]
+    },
+    {
+      "source": "texto",
+      "target": "literatura",
+      "weight": 12,
+      "predicates": [
+        "están en diapasón con",
+        "confrontan",
+        "responde a"
+      ]
+    },
+    {
+      "source": "cultura",
+      "target": "literatura",
+      "weight": 12,
+      "predicates": [
+        "incluida en",
+        "cuestionaron",
+        "propiciaron"
+      ]
+    },
+    {
+      "source": "texto",
+      "target": "escritura",
+      "weight": 11,
+      "predicates": [
+        "estÃ¡ ligada a",
+        "muestra tensión entre",
+        "complejiza"
+      ]
+    },
+    {
+      "source": "historia",
+      "target": "cultura",
+      "weight": 11,
+      "predicates": [
+        "incluye",
+        "aceptan",
+        "publicado por"
+      ]
+    },
+    {
+      "source": "literatura",
+      "target": "arte",
+      "weight": 10,
+      "predicates": [
+        "evitan admitir",
+        "fue leída como",
+        "es"
+      ]
+    },
+    {
+      "source": "arte",
+      "target": "lectura",
+      "weight": 10,
+      "predicates": [
+        "revisa",
+        "establece",
+        "incluyen"
+      ]
+    },
+    {
+      "source": "arte",
+      "target": "cultura",
+      "weight": 9,
+      "predicates": [
+        "se convirtió en",
+        "se juega en",
+        "está vinculada a"
+      ]
+    }
+  ]
+}

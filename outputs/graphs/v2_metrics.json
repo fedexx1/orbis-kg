@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-09T16:54:38.598262",
+  "articles_processed": 472,
+  "curated_entities": 106,
+  "fuzzy_matches": 13148,
+  "total_entity_mappings": 13396,
+  "unique_entities_in_graph": 106,
+  "unique_edges": 2093,
+  "unique_predicates": 2499,
+  "provenance_coverage": 1.0,
+  "input_relations": 104500,
+  "matched_relations": 7025
+}

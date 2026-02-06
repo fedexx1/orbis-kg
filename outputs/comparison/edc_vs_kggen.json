@@ -1,0 +1,684 @@
+{
+  "edc": {
+    "name": "EDC",
+    "total_triplets": 106883,
+    "unique_entities": 88803,
+    "unique_predicates": 22328,
+    "unique_subjects": 28628,
+    "unique_objects": 73347,
+    "entity_types": {
+      "generic_concept": 6559,
+      "other": 64925,
+      "proper_name": 16640,
+      "year": 366,
+      "temporal": 110,
+      "identifier": 203
+    },
+    "predicate_types": {
+      "location": 1762,
+      "authorship": 500,
+      "generic_relation": 1557,
+      "other_specific": 14534,
+      "copulative": 3234,
+      "analysis": 578,
+      "mention": 158,
+      "relation": 5
+    },
+    "triplet_predicate_distribution": {
+      "other_specific": 50731,
+      "copulative": 15481,
+      "analysis": 6355,
+      "location": 5335,
+      "mention": 1360,
+      "authorship": 15533,
+      "generic_relation": 11978,
+      "relation": 110
+    },
+    "top_predicates": [
+      [
+        "es",
+        6362
+      ],
+      [
+        "escribió",
+        3845
+      ],
+      [
+        "incluye",
+        2821
+      ],
+      [
+        "tiene",
+        2649
+      ],
+      [
+        "publicado en",
+        2321
+      ],
+      [
+        "publicó",
+        1862
+      ],
+      [
+        "publicada en",
+        1427
+      ],
+      [
+        "analiza",
+        966
+      ],
+      [
+        "son",
+        891
+      ],
+      [
+        "incluyen",
+        811
+      ],
+      [
+        "escribe",
+        789
+      ],
+      [
+        "publicado por",
+        762
+      ],
+      [
+        "pertenece a",
+        714
+      ],
+      [
+        "usa",
+        658
+      ],
+      [
+        "contiene",
+        542
+      ],
+      [
+        "analizó",
+        523
+      ],
+      [
+        "describe",
+        500
+      ],
+      [
+        "propone",
+        467
+      ],
+      [
+        "representa",
+        422
+      ],
+      [
+        "tienen",
+        405
+      ],
+      [
+        "publicada por",
+        405
+      ],
+      [
+        "publicó en",
+        374
+      ],
+      [
+        "publica",
+        370
+      ],
+      [
+        "menciona",
+        362
+      ],
+      [
+        "muestra",
+        333
+      ],
+      [
+        "tuvo",
+        328
+      ],
+      [
+        "define",
+        325
+      ],
+      [
+        "critica",
+        318
+      ],
+      [
+        "era",
+        315
+      ],
+      [
+        "fue",
+        304
+      ],
+      [
+        "explora",
+        278
+      ],
+      [
+        "afirma",
+        276
+      ],
+      [
+        "fue publicado en",
+        275
+      ],
+      [
+        "tiene ISSN",
+        264
+      ],
+      [
+        "no es",
+        255
+      ],
+      [
+        "dice",
+        249
+      ],
+      [
+        "considera",
+        248
+      ],
+      [
+        "es parte de",
+        238
+      ],
+      [
+        "es autor de",
+        237
+      ],
+      [
+        "aborda",
+        226
+      ],
+      [
+        "incluyó",
+        226
+      ],
+      [
+        "trata sobre",
+        223
+      ],
+      [
+        "requiere",
+        218
+      ],
+      [
+        "presenta",
+        216
+      ],
+      [
+        "criticó",
+        214
+      ],
+      [
+        "construye",
+        206
+      ],
+      [
+        "permite",
+        203
+      ],
+      [
+        "implica",
+        189
+      ],
+      [
+        "produce",
+        189
+      ],
+      [
+        "busca",
+        183
+      ]
+    ],
+    "recall": {
+      "authors": {
+        "category": "Literary Authors",
+        "known_count": 22,
+        "found_count": 22,
+        "recall": 1.0,
+        "found": [
+          "arlt",
+          "bioy casares",
+          "borges",
+          "cortázar",
+          "echeverría",
+          "girondo",
+          "gombrowicz",
+          "hernández",
+          "jorge luis borges",
+          "juan josé saer",
+          "julio cortázar",
+          "lamborghini",
+          "leopoldo marechal",
+          "lugones",
+          "macedonio fernández",
+          "manuel puig",
+          "piglia",
+          "puig",
+          "ricardo piglia",
+          "roberto arlt",
+          "saer",
+          "sarmiento"
+        ],
+        "missing": []
+      },
+      "critics": {
+        "category": "Critics",
+        "known_count": 12,
+        "found_count": 12,
+        "recall": 1.0,
+        "found": [
+          "amícola",
+          "beatriz sarlo",
+          "david viñas",
+          "gramuglio",
+          "jitrik",
+          "josefina ludmer",
+          "ludmer",
+          "noé jitrik",
+          "panesi",
+          "piglia",
+          "sarlo",
+          "viñas"
+        ],
+        "missing": []
+      },
+      "theorists": {
+        "category": "Theorists",
+        "known_count": 16,
+        "found_count": 16,
+        "recall": 1.0,
+        "found": [
+          "adorno",
+          "bajtin",
+          "bajtín",
+          "barthes",
+          "benjamin",
+          "deleuze",
+          "derrida",
+          "foucault",
+          "freud",
+          "genette",
+          "jameson",
+          "kristeva",
+          "lacan",
+          "lotman",
+          "shklovski",
+          "tyniánov"
+        ],
+        "missing": []
+      },
+      "concepts": {
+        "category": "Concepts",
+        "known_count": 15,
+        "found_count": 15,
+        "recall": 1.0,
+        "found": [
+          "criollismo",
+          "dictadura",
+          "exilio",
+          "fantástico",
+          "gauchesca",
+          "identidad",
+          "intertextualidad",
+          "memoria",
+          "nación",
+          "parodia",
+          "peronismo",
+          "postmodernismo",
+          "realismo",
+          "testimonio",
+          "vanguardia"
+        ],
+        "missing": []
+      }
+    }
+  },
+  "kggen": {
+    "name": "KGGen V2",
+    "total_triplets": 104500,
+    "unique_entities": 83344,
+    "unique_predicates": 19508,
+    "unique_subjects": 32965,
+    "unique_objects": 49668,
+    "entity_types": {
+      "other": 45427,
+      "proper_name": 33950,
+      "generic_concept": 3667,
+      "temporal": 111,
+      "year": 157,
+      "identifier": 32
+    },
+    "predicate_types": {
+      "other_specific": 11791,
+      "generic_relation": 734,
+      "copulative": 2724,
+      "location": 3129,
+      "authorship": 389,
+      "analysis": 546,
+      "mention": 179,
+      "relation": 16
+    },
+    "triplet_predicate_distribution": {
+      "other_specific": 36628,
+      "authorship": 20228,
+      "analysis": 3872,
+      "location": 12102,
+      "mention": 3894,
+      "relation": 3627,
+      "copulative": 19050,
+      "generic_relation": 5099
+    },
+    "top_predicates": [
+      [
+        "wrote",
+        5409
+      ],
+      [
+        "is a",
+        4738
+      ],
+      [
+        "is author of",
+        3003
+      ],
+      [
+        "is related to",
+        2479
+      ],
+      [
+        "mentions",
+        2207
+      ],
+      [
+        "published by",
+        2124
+      ],
+      [
+        "is",
+        1899
+      ],
+      [
+        "published in",
+        1881
+      ],
+      [
+        "has",
+        1543
+      ],
+      [
+        "is in",
+        1219
+      ],
+      [
+        "written by",
+        1217
+      ],
+      [
+        "wrote about",
+        1135
+      ],
+      [
+        "is part of",
+        1110
+      ],
+      [
+        "published",
+        942
+      ],
+      [
+        "related to",
+        915
+      ],
+      [
+        "are",
+        882
+      ],
+      [
+        "wrote in",
+        862
+      ],
+      [
+        "includes",
+        624
+      ],
+      [
+        "es",
+        607
+      ],
+      [
+        "author of",
+        591
+      ],
+      [
+        "in",
+        568
+      ],
+      [
+        "is published by",
+        529
+      ],
+      [
+        "of",
+        419
+      ],
+      [
+        "is from",
+        415
+      ],
+      [
+        "is about",
+        408
+      ],
+      [
+        "mentioned in",
+        355
+      ],
+      [
+        "is written by",
+        330
+      ],
+      [
+        "located in",
+        328
+      ],
+      [
+        "include",
+        318
+      ],
+      [
+        "wrote for",
+        314
+      ],
+      [
+        "writes",
+        312
+      ],
+      [
+        "uses",
+        302
+      ],
+      [
+        "affiliated with",
+        301
+      ],
+      [
+        "part of",
+        294
+      ],
+      [
+        "writes about",
+        291
+      ],
+      [
+        "is mentioned in",
+        288
+      ],
+      [
+        "wrote to",
+        287
+      ],
+      [
+        "de",
+        283
+      ],
+      [
+        "mentioned",
+        261
+      ],
+      [
+        "relates to",
+        257
+      ],
+      [
+        "en",
+        227
+      ],
+      [
+        "directed by",
+        226
+      ],
+      [
+        "location of",
+        225
+      ],
+      [
+        "edited by",
+        218
+      ],
+      [
+        "is location of",
+        217
+      ],
+      [
+        "contains",
+        216
+      ],
+      [
+        "from",
+        194
+      ],
+      [
+        "is published in",
+        180
+      ],
+      [
+        "appears in",
+        178
+      ],
+      [
+        "translated by",
+        178
+      ]
+    ],
+    "recall": {
+      "authors": {
+        "category": "Literary Authors",
+        "known_count": 22,
+        "found_count": 22,
+        "recall": 1.0,
+        "found": [
+          "arlt",
+          "bioy casares",
+          "borges",
+          "cortázar",
+          "echeverría",
+          "girondo",
+          "gombrowicz",
+          "hernández",
+          "jorge luis borges",
+          "juan josé saer",
+          "julio cortázar",
+          "lamborghini",
+          "leopoldo marechal",
+          "lugones",
+          "macedonio fernández",
+          "manuel puig",
+          "piglia",
+          "puig",
+          "ricardo piglia",
+          "roberto arlt",
+          "saer",
+          "sarmiento"
+        ],
+        "missing": []
+      },
+      "critics": {
+        "category": "Critics",
+        "known_count": 12,
+        "found_count": 12,
+        "recall": 1.0,
+        "found": [
+          "amícola",
+          "beatriz sarlo",
+          "david viñas",
+          "gramuglio",
+          "jitrik",
+          "josefina ludmer",
+          "ludmer",
+          "noé jitrik",
+          "panesi",
+          "piglia",
+          "sarlo",
+          "viñas"
+        ],
+        "missing": []
+      },
+      "theorists": {
+        "category": "Theorists",
+        "known_count": 16,
+        "found_count": 16,
+        "recall": 1.0,
+        "found": [
+          "adorno",
+          "bajtin",
+          "bajtín",
+          "barthes",
+          "benjamin",
+          "deleuze",
+          "derrida",
+          "foucault",
+          "freud",
+          "genette",
+          "jameson",
+          "kristeva",
+          "lacan",
+          "lotman",
+          "shklovski",
+          "tyniánov"
+        ],
+        "missing": []
+      },
+      "concepts": {
+        "category": "Concepts",
+        "known_count": 15,
+        "found_count": 15,
+        "recall": 1.0,
+        "found": [
+          "criollismo",
+          "dictadura",
+          "exilio",
+          "fantástico",
+          "gauchesca",
+          "identidad",
+          "intertextualidad",
+          "memoria",
+          "nación",
+          "parodia",
+          "peronismo",
+          "postmodernismo",
+          "realismo",
+          "testimonio",
+          "vanguardia"
+        ],
+        "missing": []
+      }
+    }
+  }
+}

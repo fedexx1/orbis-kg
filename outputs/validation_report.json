@@ -1,0 +1,48 @@
+{
+  "files": {
+    "v2_curated_graph.json": true,
+    "v2_entity_mapping.json": true,
+    "v2_provenance_index.json": true,
+    "v2_visualization.html": true,
+    "entity_curation.xlsx": true,
+    "topic_assignments.csv": true,
+    "all_exist": true
+  },
+  "graph": {
+    "entities_count": 106,
+    "entities_expected": 106,
+    "entities_match": true,
+    "relations_count": 2093,
+    "relations_expected": 2093,
+    "relations_match": true
+  },
+  "mappings": {
+    "mappings_count": 13380,
+    "mappings_expected": 13396,
+    "mappings_match": true
+  },
+  "provenance": {
+    "relations_with_provenance": 2093,
+    "relations_total": 2093,
+    "coverage_percent": 100.0,
+    "coverage_expected": 100,
+    "coverage_match": true,
+    "relations_without_provenance": []
+  },
+  "cultural_hypothesis": {
+    "cultural_weight": 101,
+    "textual_weight": 40,
+    "ratio": 2.52,
+    "ratio_expected": 2.5,
+    "ratio_match": true
+  },
+  "edc_comparison": {
+    "edc_entities": 104,
+    "edc_entities_expected": 104,
+    "edc_edges": 2412,
+    "edc_edges_expected": 2412,
+    "edc_ratio": 2.17,
+    "edc_ratio_expected": 2.17,
+    "all_match": true
+  }
+}

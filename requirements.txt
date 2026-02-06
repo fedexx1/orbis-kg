@@ -1,0 +1,29 @@
+# KGGEN Publication - Python Dependencies
+# Python 3.10+ required
+
+# Core data processing
+pandas>=2.0.0
+openpyxl>=3.1.0  # Excel file support
+scipy>=1.10.0  # Statistical tests (chi-squared)
+
+# LLM integration (for extraction)
+litellm>=1.0.0
+python-dotenv>=1.0.0
+
+# Knowledge graph extraction
+# kg-gen  # Install from local: pip install -e ./kg-gen
+
+# Visualization (optional)
+networkx>=3.0
+pyvis>=0.3.0
+
+# NLP comparison (optional)
+spacy>=3.7.0
+# Download model: python -m spacy download es_core_news_lg
+
+# Text processing
+unicodedata2>=15.0.0
+
+# Development (optional)
+pytest>=7.0.0
+black>=23.0.0

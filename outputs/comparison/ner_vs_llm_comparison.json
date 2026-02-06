@@ -1,0 +1,639 @@
+{
+  "timestamp": "2026-01-13T13:51:37.576967",
+  "articles_compared": 472,
+  "spacy": {
+    "total_entities": 236905,
+    "unique_entities": 92441,
+    "per_article_avg": 501.91737288135596,
+    "by_type": {
+      "PER": 88790,
+      "LOC": 45135,
+      "ORG": 15456,
+      "MISC": 87524
+    }
+  },
+  "kggen": {
+    "total_entities": 123730,
+    "unique_entities": 72382,
+    "per_article_avg": 262.1398305084746,
+    "by_type": {
+      "CONCEPT": 26069,
+      "PERSON": 43550,
+      "OTHER": 51295,
+      "PLACE": 2816
+    },
+    "articles_with_relations": 472
+  },
+  "overlap": {
+    "both": 25014,
+    "spacy_only": 72119,
+    "kggen_only": 51060,
+    "jaccard_similarity": 0.19126192541196876
+  },
+  "top_spacy_entities": [
+    [
+      "orbis tertius",
+      4702
+    ],
+    [
+      "buenos aires",
+      3789
+    ],
+    [
+      "universidad nacional de la plata",
+      1893
+    ],
+    [
+      "facultad de humanidades y ciencias de la educaci´ on\ncentro de",
+      1474
+    ],
+    [
+      "estudios de teor",
+      1474
+    ],
+    [
+      "cr ´ ıtica",
+      1474
+    ],
+    [
+      "argentina",
+      1391
+    ],
+    [
+      "borges",
+      1296
+    ],
+    [
+      "mexico",
+      1053
+    ],
+    [
+      "cortazar",
+      820
+    ],
+    [
+      "madrid",
+      812
+    ],
+    [
+      "paris",
+      809
+    ],
+    [
+      "puig",
+      700
+    ],
+    [
+      "barcelona",
+      654
+    ],
+    [
+      "america",
+      599
+    ],
+    [
+      "espana",
+      510
+    ],
+    [
+      "piglia",
+      505
+    ],
+    [
+      "saer",
+      471
+    ],
+    [
+      "sarmiento",
+      464
+    ],
+    [
+      "dario",
+      427
+    ],
+    [
+      "j.",
+      411
+    ],
+    [
+      "la argentina",
+      401
+    ],
+    [
+      "arlt",
+      382
+    ],
+    [
+      "martin fierro",
+      335
+    ],
+    [
+      "europa",
+      334
+    ],
+    [
+      "ahora",
+      326
+    ],
+    [
+      "lugones",
+      311
+    ],
+    [
+      "sin embargo",
+      301
+    ],
+    [
+      "aira",
+      293
+    ],
+    [
+      "rosario",
+      292
+    ],
+    [
+      "ocampo",
+      285
+    ],
+    [
+      "barthes",
+      284
+    ],
+    [
+      "a.",
+      280
+    ],
+    [
+      "america latina",
+      280
+    ],
+    [
+      "montevideo",
+      274
+    ],
+    [
+      "groussac",
+      270
+    ],
+    [
+      "keywords",
+      263
+    ],
+    [
+      "estado",
+      262
+    ],
+    [
+      "francia",
+      241
+    ],
+    [
+      "manuel puig",
+      240
+    ],
+    [
+      "rojas",
+      234
+    ],
+    [
+      "dios",
+      233
+    ],
+    [
+      "creative commons atribuci",
+      228
+    ],
+    [
+      "r.",
+      222
+    ],
+    [
+      "ludmer",
+      217
+    ],
+    [
+      "historia",
+      216
+    ],
+    [
+      "diario",
+      207
+    ],
+    [
+      "brasil",
+      201
+    ],
+    [
+      "hernandez",
+      200
+    ],
+    [
+      "rama",
+      200
+    ]
+  ],
+  "top_kggen_entities": [
+    [
+      "orbis tertius",
+      421
+    ],
+    [
+      "universidad nacional de la plata",
+      356
+    ],
+    [
+      "buenos aires",
+      314
+    ],
+    [
+      "argentina",
+      280
+    ],
+    [
+      "literatura",
+      250
+    ],
+    [
+      "facultad de humanidades y ciencias de la educacion",
+      238
+    ],
+    [
+      "centro de estudios de teoria y critica literaria",
+      218
+    ],
+    [
+      "mexico",
+      183
+    ],
+    [
+      "madrid",
+      163
+    ],
+    [
+      "paris",
+      147
+    ],
+    [
+      "borges",
+      144
+    ],
+    [
+      "historia",
+      142
+    ],
+    [
+      "centro de estudios de teor ´ ıa y cr ´ ıtica literaria",
+      141
+    ],
+    [
+      "escritura",
+      139
+    ],
+    [
+      "cultura",
+      133
+    ],
+    [
+      "barcelona",
+      131
+    ],
+    [
+      "america latina",
+      129
+    ],
+    [
+      "poesia",
+      127
+    ],
+    [
+      "europa",
+      125
+    ],
+    [
+      "universidad de buenos aires",
+      122
+    ],
+    [
+      "arte",
+      116
+    ],
+    [
+      "espana",
+      113
+    ],
+    [
+      "sociedad",
+      107
+    ],
+    [
+      "literatura argentina",
+      106
+    ],
+    [
+      "siglo xix",
+      104
+    ],
+    [
+      "lenguaje",
+      102
+    ],
+    [
+      "critica",
+      100
+    ],
+    [
+      "lector",
+      98
+    ],
+    [
+      "estados unidos",
+      98
+    ],
+    [
+      "escritor",
+      96
+    ],
+    [
+      "america",
+      92
+    ],
+    [
+      "siglo xxi",
+      89
+    ],
+    [
+      "narrador",
+      88
+    ],
+    [
+      "rosario",
+      87
+    ],
+    [
+      "facultad de humanidades y ciencias de la educaci´ on",
+      86
+    ],
+    [
+      "vida",
+      86
+    ],
+    [
+      "estado",
+      85
+    ],
+    [
+      "mundo",
+      85
+    ],
+    [
+      "francia",
+      84
+    ],
+    [
+      "texto",
+      83
+    ],
+    [
+      "cuerpo",
+      80
+    ],
+    [
+      "dios",
+      79
+    ],
+    [
+      "fondo de cultura economica",
+      78
+    ],
+    [
+      "lectores",
+      78
+    ],
+    [
+      "conicet",
+      78
+    ],
+    [
+      "jorge luis borges",
+      78
+    ],
+    [
+      "beatriz sarlo",
+      77
+    ],
+    [
+      "autor",
+      76
+    ],
+    [
+      "novela",
+      76
+    ],
+    [
+      "politica",
+      72
+    ]
+  ],
+  "top_concepts": [
+    [
+      "universidad nacional de la plata",
+      356
+    ],
+    [
+      "literatura",
+      250
+    ],
+    [
+      "facultad de humanidades y ciencias de la educacion",
+      238
+    ],
+    [
+      "centro de estudios de teoria y critica literaria",
+      218
+    ],
+    [
+      "escritura",
+      139
+    ],
+    [
+      "cultura",
+      133
+    ],
+    [
+      "poesia",
+      126
+    ],
+    [
+      "universidad de buenos aires",
+      122
+    ],
+    [
+      "sociedad",
+      107
+    ],
+    [
+      "literatura argentina",
+      106
+    ],
+    [
+      "lenguaje",
+      102
+    ],
+    [
+      "critica",
+      100
+    ],
+    [
+      "lector",
+      98
+    ],
+    [
+      "facultad de humanidades y ciencias de la educaci´ on",
+      86
+    ],
+    [
+      "texto",
+      83
+    ],
+    [
+      "fondo de cultura economica",
+      78
+    ],
+    [
+      "lectores",
+      78
+    ],
+    [
+      "autor",
+      76
+    ],
+    [
+      "novela",
+      76
+    ],
+    [
+      "naturaleza",
+      71
+    ],
+    [
+      "realidad",
+      68
+    ],
+    [
+      "obra",
+      65
+    ],
+    [
+      "ciudad",
+      63
+    ],
+    [
+      "nacion",
+      61
+    ],
+    [
+      "la nacion",
+      61
+    ],
+    [
+      "personajes",
+      56
+    ],
+    [
+      "lectura",
+      51
+    ],
+    [
+      "critica literaria",
+      50
+    ],
+    [
+      "modernidad",
+      50
+    ],
+    [
+      "autores",
+      49
+    ],
+    [
+      "ficcion",
+      48
+    ],
+    [
+      "literatura latinoamericana",
+      46
+    ],
+    [
+      "genero",
+      46
+    ],
+    [
+      "discurso",
+      45
+    ],
+    [
+      "subjetividad",
+      44
+    ],
+    [
+      "identidad",
+      44
+    ],
+    [
+      "textos",
+      44
+    ],
+    [
+      "modernismo",
+      43
+    ],
+    [
+      "revolucion",
+      41
+    ],
+    [
+      "obras completas",
+      40
+    ],
+    [
+      "comunidad",
+      40
+    ],
+    [
+      "narracion",
+      40
+    ],
+    [
+      "universidad nacional de rosario",
+      40
+    ],
+    [
+      "dictadura",
+      39
+    ],
+    [
+      "tradicion",
+      39
+    ],
+    [
+      "verdad",
+      39
+    ],
+    [
+      "realismo",
+      37
+    ],
+    [
+      "romanticismo",
+      35
+    ],
+    [
+      "peronismo",
+      35
+    ],
+    [
+      "civilizacion",
+      34
+    ]
+  ]
+}
