@@ -9,6 +9,7 @@ scipy>=1.10.0  # Statistical tests (chi-squared)
 # LLM integration (for extraction)
 litellm>=1.0.0
 python-dotenv>=1.0.0
+mistralai>=1.0.0  # For EDC extraction
 
 # Knowledge graph extraction
 # kg-gen  # Install from local: pip install -e ./kg-gen

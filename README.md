@@ -76,7 +76,10 @@ publication/
 └── src/
     ├── config.py                      # Configuration settings
     ├── extraction/
-    │   └── extract_v2.py              # KGGen extraction pipeline
+    │   ├── extract_v2.py              # KGGen extraction pipeline
+    │   └── edc/
+    │       ├── preprocess_orbis.py    # Preprocess articles for EDC
+    │       └── run_edc.py             # EDC extraction pipeline
     ├── curation/
     │   ├── build_curation.py          # Generate curation recommendations
     │   └── apply_curation.py          # Apply entity canonicalization
